@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Vagas = styled.li`
   border: 1px solid ${(props) => props.theme.corPrincipal};
@@ -8,19 +8,19 @@ export const Vagas = styled.li`
   transition: all ease 0.3s;
   border-radius: 8px;
 
-:hover {
-  background-color: ${(props) => props.theme.corPrincipal};
-  color: ${(props) => props.theme.corSecundaria};
+  :hover {
+    background-color: ${(props) => props.theme.corPrincipal};
+    color: ${(props) => props.theme.corSecundaria};
 
-  a {
-    border-color: ${(props) => props.theme.corPrincipal};
-    background-color: ${(props) => props.theme.corSecundaria};
-    color: ${(props) => props.theme.corPrincipal};
+    a {
+      border-color: ${(props) => props.theme.corPrincipal};
+      background-color: ${(props) => props.theme.corSecundaria};
+      color: ${(props) => props.theme.corPrincipal};
+    }
   }
-}
 
-li {
-  list-style: none;
+  li {
+    list-style: none;
   }
 `
 

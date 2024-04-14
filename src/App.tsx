@@ -6,7 +6,6 @@ import Cabecalho from './components/Cabecalho'
 
 import EstiloGlobal, { Container } from './Global'
 
-
 function App() {
   return (
     <ThemeProvider theme={themeConstCores}>
