@@ -20,6 +20,7 @@ export const Container = styled.div`
   max-width: 1024px;
   width: 100%;
   margin: 0 auto;
+  box-sizing: border-box;
 
   @media (max-width: 1024px) {
     max-width: 80%;

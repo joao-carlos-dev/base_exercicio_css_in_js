@@ -9,7 +9,7 @@ export const Form = styled.form`
   display: flex;
   align-items: center;
 
-  ::before {
+  &:before {
     position: absolute;
     top: 0;
     left: 0;
@@ -23,6 +23,8 @@ export const Form = styled.form`
   div {
     position: relative;
     color: ${(props) => props.theme.CorTextoHero};
+    font-family: Gloock, sanrif;
+    font-size: 28px;
   }
 
   @media (max-width: 768px) {
