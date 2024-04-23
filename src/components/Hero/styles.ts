@@ -22,7 +22,7 @@ export const Form = styled.form`
 
   div {
     position: relative;
-    color: ${(props) => props.theme.CorTextoHero};
+    color: ${(props) => props.theme.corTextoHero};
     font-family: Gloock, sanrif;
     font-size: 28px;
   }
